@@ -1,0 +1,57 @@
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.nav {
+  padding: 10px 2%;
+  width: 100%;
+  background: #fff;
+  justify-content: space-between;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  .nav-left {
+    .menu-icon {
+      width: 22px;
+      margin-right: 25px;
+    }
+    a {
+      .logo {
+        width: 130px;
+      }
+    }
+  }
+  .nav-middle {
+    .search-box {
+      border: 1px solid #ccc;
+      margin-right: 15px;
+      padding: 8px 12px;
+      border-radius: 25px;
+      input {
+        width: 450px;
+        border: 0;
+        outline: 0;
+        background: transparent;
+      }
+      img {
+        width: 15px;
+      }
+    }
+    .mic-icon {
+      width: 16px;
+    }
+  }
+  .nav-right {
+    img {
+      width: 25px;
+      margin-right: 25px;
+    }
+    .user-icon {
+      margin-right: 0;
+      width: 35px;
+      border-radius: 50%;
+    }
+  }
+}
