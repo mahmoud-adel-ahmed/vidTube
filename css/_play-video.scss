@@ -194,11 +194,22 @@
     .row {
       .play-video {
         flex-basis: 100%;
+        h3 {
+          font-size: 16px;
+          line-height: 1.4;
+        }
         .play-vidInfo {
+          font-size: 13px;
           a {
             margin-left: 0;
             margin-right: 15px;
             margin-top: 15px;
+          }
+        }
+        .publisher {
+          button {
+            padding-left: 20px;
+            padding-right: 20px;
           }
         }
         .vid-description {

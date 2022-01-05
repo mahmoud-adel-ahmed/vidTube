@@ -7,7 +7,6 @@
 }
 
 body {
-  overflow-x: hidden;
   font-family: "Times New Roman", Times, serif;
 }
 
@@ -110,7 +109,7 @@ a {
       object-fit: cover;
     }
     .hug {
-      width: 100%;
+      width: 80%;
       position: absolute;
       top: 40%;
       left: 3%;
@@ -161,6 +160,7 @@ a {
 .container-resize {
   padding-left: 7%;
 }
+
 @import "./play-video";
 
 // ----- media
@@ -170,8 +170,10 @@ a {
       .menu-icon {
         display: none;
       }
-      .logo {
-        width: 90px;
+      a {
+        .logo {
+          width: 90px;
+        }
       }
     }
     .nav-right {
@@ -184,10 +186,10 @@ a {
       }
     }
     .nav-middle {
-      margin: 0 5px;
       .search-box {
+        margin-right: 0;
         input {
-          width: 130px;
+          width: 125px;
         }
       }
       .mic-icon {
@@ -198,19 +200,15 @@ a {
   .sidebar {
     display: none;
   }
-  .container,
-  .container-resize {
+  .container-resize,
+  .container {
     padding-left: 5%;
     padding-right: 5%;
+  }
+  .container {
     .banner {
       img {
-        height: 50vh;
-      }
-      .hug {
-        h1 {
-          top: 30%;
-          font-size: 25px;
-        }
+        height: 30vh;
       }
     }
   }

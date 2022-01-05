@@ -2,7 +2,9 @@
   display: flex;
   align-items: center;
 }
-
+.show {
+  display: none;
+}
 .nav {
   padding: 10px 2%;
   width: 100%;
@@ -49,7 +51,7 @@
       margin-right: 25px;
     }
     .user-icon {
-      margin-right: 0;
+      margin-right: 5px;
       width: 35px;
       border-radius: 50%;
     }
