@@ -1,6 +1,5 @@
 .play-container {
-  padding-left: 2%;
-
+  padding: 20px 2% 20px 2%;
   .row {
     display: flex;
     justify-content: space-between;
@@ -191,6 +190,7 @@
 @media screen and(max-width:992px) {
   .play-container {
     padding-left: 5%;
+    padding-right: 5%;
     .row {
       .play-video {
         flex-basis: 100%;

@@ -1,25 +1,6 @@
-// ---- global rules ----
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  text-transform: capitalize;
-}
-
-body {
-  font-family: "Times New Roman", Times, serif;
-}
-
-img {
-  cursor: pointer;
-}
-
-a {
-  text-decoration: none;
-  color: #5a5a5a;
-}
-
-@import "./global";
+@import "./general";
+@import "./global-nav";
+@import "./play-video";
 
 // ---- sidebar ------
 .sidebar {
@@ -160,8 +141,6 @@ a {
 .container-resize {
   padding-left: 7%;
 }
-
-@import "./play-video";
 
 // ----- media
 @media screen and(max-width:992px) {
