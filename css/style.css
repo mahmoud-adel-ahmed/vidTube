@@ -339,6 +339,7 @@ a {
 .play-container .row .right-sidebar .side-vidList .vidInfo a {
   color: #000;
   font-weight: 600;
+  line-height: 1.5;
 }
 
 .play-container .row .right-sidebar .side-vidList .vidInfo .desc {
@@ -514,18 +515,6 @@ a {
      object-fit: cover;
 }
 
-.container .banner .hug {
-  width: 80%;
-  position: absolute;
-  top: 40%;
-  left: 3%;
-}
-
-.container .banner .hug h1 {
-  font-size: 45px;
-  color: #fff;
-}
-
 .container .list-container {
   display: -ms-grid;
   display: grid;
@@ -565,6 +554,7 @@ a {
   color: #000;
   font-weight: 600;
   display: block;
+  line-height: 1.5;
   margin-bottom: 5px;
 }
 

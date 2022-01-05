@@ -89,16 +89,6 @@
       height: 65vh;
       object-fit: cover;
     }
-    .hug {
-      width: 80%;
-      position: absolute;
-      top: 40%;
-      left: 3%;
-      h1 {
-        font-size: 45px;
-        color: #fff;
-      }
-    }
   }
   .list-container {
     display: grid;
@@ -127,6 +117,7 @@
             color: #000;
             font-weight: 600;
             display: block;
+            line-height: 1.5;
             margin-bottom: 5px;
           }
           p {
